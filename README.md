@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Instructions
+Créez un projet à l'aide de create-react-app.
+Créez un fichier appelé players.js, qui contiendra un tableau d'objets JSON contenant les détails des joueurs (au moins quatre joueurs).
+Faites preuve de créativité dans le choix de vos joueurs ; vous pouvez choisir qui vous voulez !
+
+Les attributs de chaque joueur sont : nom, équipe, nationalité, numéro de maillot, âge et URL d’une image du joueur.
+
+Créez un fichier appelé Player.js qui contient le composant lecteur.
+
+Le composant Player doit afficher une carte react-bootstrap. Cette carte affichera tous les attributs de chaque joueur défini dans players.js.
+
+• Déstructurer tous les attributs du composant Player.
+
+· Créez un composant appelé PlayersList.js
+
+Importez dans PlayerList.js le composant Player et les données des joueurs depuis players.js.
+
+• Afficher tous les joueurs dans PlayerList.js, en parcourant tous les éléments du tableau de joueurs (voir la fonction .map).
+
+· Lors du mappage des joueurs, transmettez les propriétés au composant Player (recherchez l'opérateur spread si vous souhaitez l'utiliser).
+
+N'oubliez pas de définir des propriétés par défaut pour chaque attribut (vous pouvez définir n'importe quelles propriétés par défaut).
+
+Utilisez un style en ligne pour le composant Player.
+
+Importez le fichier PlayerList.js dans App.js (composant racine) et affichez la PlayerList.
